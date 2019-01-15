@@ -51,6 +51,7 @@ public class MyView extends View {
 
     @Override
     public void draw(Canvas canvas) {
+        //范德萨范德萨方法
         super.draw(canvas);
         canvas.drawColor(Color.RED);
         canvas.save();
@@ -58,6 +59,7 @@ public class MyView extends View {
         canvas.drawColor(Color.GREEN);
         canvas.restore();
         canvas.drawColor(Color.GREEN);//
+
 
     }
 
